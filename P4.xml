@@ -1,0 +1,22 @@
+<filetype binary="false" description="P4" name="P4">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="//" />
+      <option name="COMMENT_START" value="/*" />
+      <option name="COMMENT_END" value="*/" />
+      <option name="HEX_PREFIX" value="0x" />
+      <option name="NUM_POSTFIXES" value="" />
+      <option name="HAS_BRACES" value="true" />
+      <option name="HAS_BRACKETS" value="true" />
+      <option name="HAS_PARENS" value="true" />
+    </options>
+    <keywords keywords="struct;package;header;metadata;parser;transition;state;actions;action;table;key;control;extern;verify;if;else;return;hit;miss;true;false;inout;in;out;exit;reads;actions;min_size;max_size;size;support_timeout;action_profile" ignore_case="false" />
+    <keywords2 keywords="#define;#endif;#ifdef;#ifndef;#include;apply;valid;select;current;extract;add_header;copy_header;remove_header;modify_field;add_to_field;add;set_field_to_hash_index;truncate;drop;no_op;push;pop;count;meter;generate_digest;resubmit;recirculate;clone_ingress_pkt_to_ingress;clone_egress_pkt_to_ingress;clone_ingress_pkt_to_egress;clone_egress_pkt_to_egress;register_write;register_read" ignore_case="false" />
+    <keywords3 keywords="length;fields;max_length;bytes;packets;and;or;void;const;bool;varbit;bit;int;typedef;tuple;enum;hit;miss;latest;return;default" ignore_case="false" />
+    <keywords4 keywords="exact;ternary;lpm;range;valid;mask;match_kind;width;layout;attributes;type;static;result;direct;instance_count;min_width;saturating" ignore_case="false" />
+
+  </highlighting>
+  <extensionMap>
+    <mapping ext="p4" />
+  </extensionMap>
+</filetype>
